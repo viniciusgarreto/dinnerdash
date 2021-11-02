@@ -5,4 +5,7 @@ Rails.application.routes.draw do
 
   get '/meal_categories', to: 'meal_categories#index'
   post '/meal_categories', to: 'meal_categories#create'
+
+  get '/orders', to: 'orders#index'
+  post '/orders', to: 'orders#create'
 end
